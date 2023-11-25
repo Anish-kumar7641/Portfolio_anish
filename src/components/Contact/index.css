@@ -1,0 +1,103 @@
+
+
+.contact-page {
+  width:100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-page h1 {
+    font-size: 53px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: -10px;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
+      left: -10px;
+      opacity: 0.6;
+      line-height: 18px;
+    }
+
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      line-height: 18px;
+      position: absolute;
+      left: -30px;
+      bottom: -20px;
+      margin-left: 20px;
+      opacity: 0.6;
+    }
+  }
+
+
+.map {
+  margin:0rem 0rem 0rem 20rem;
+}
+
+.contact-page p{
+  font-size: 2.5rem;
+  color:aliceblue;
+  margin: 4rem 0rem 4rem 37rem;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  color:#007bff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0rem 0rem 0rem 37rem;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0rem 0rem 0rem 37rem;
+  font-size: 2rem;
+  
+  border-width: 0.1rem;
+  border-color: rgb(4, 5, 5);
+  border-radius: 0.5rem;
+}
+
+.contact-page button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border:#007bff;
+  border-radius: 1rem;
+  border-width:1rem;
+  font-size:1.8rem;
+  cursor: pointer;
+  margin: 0rem 0rem 2rem 67rem;
+  width:10%;
+}
+
+button:hover {
+  background-color: #0c5eb7;
+  
+}
+
+/* .contact-page h1 {
+  font-size: 3rem;
+  margin: 0rem 0rem 2rem 20rem;
+  color: #c51818;
+} */

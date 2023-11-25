@@ -1,0 +1,116 @@
+
+   .project {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    width:100%;
+  }
+  .project h1{
+    font-size:3rem;
+    margin:0rem 0rem 0rem 10rem;
+    color:rgb(207, 194, 11);
+  }
+  
+  .project-card {
+    display:flex;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.411);
+    background: rgba(38, 150, 200, 0.04);
+    
+    flex-direction: row;
+    width: 100rem;
+    height:30rem;
+    padding: 20px;
+    margin:5rem 0rem 5rem 10rem;
+    border: 1px solid rgb(20, 3, 3);
+    /* background-color:#181d4b; */
+    border-radius: 0.1rem;
+    border-radius: 1%;
+    text-align: center;
+    
+  }
+  .details{
+    display:flex;
+    flex-direction:column;
+  }
+  .details h2{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    color:rgb(168, 186, 3);
+    font-size: 3rem;
+  }
+  /* .details h3{
+    color:aliceblue;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  } */
+  /* .details h4{
+    color:aliceblue;
+    font-size: 1.4rem;
+    margin-top:-10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  } */
+.details_ul {
+    list-style-type: none;
+    padding: 0;
+    align-items:center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.details_ul li {
+  font-family: sans-serif;
+    color: aliceblue;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  .project-card img {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+
+  }
+  
+  
+  .project-card p {
+    
+    font-size: 1.8rem;
+    color:aliceblue;
+
+  }
+  .project-card2 {
+    display:flex;
+    flex-direction: row;
+    width: 100rem;
+    height:30rem;
+    margin:0rem 0rem 0rem 40rem;
+    padding: 20px;
+    border: 1px solid #190909;
+    background-color: #181d4b;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.411);
+    background: rgba(38, 150, 200, 0.04);
+  }
+  
+  .project-card2 img {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+
+  }
+  
+  
+  .project-card2 p {
+    font-size: 1.8rem;
+    color:aliceblue;
+
+  }

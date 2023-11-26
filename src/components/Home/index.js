@@ -7,6 +7,7 @@ import Projects from '../Projects/index.js'
 import Logo from './Logo'
 import './index.scss'
 import Education from '../Education/index.js'
+import LogoS from '../../assets/images/logo6.png'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -39,6 +40,7 @@ const Home = () => {
   return (
     <div className='home'>
       <div className="container home-page">
+        
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -67,7 +69,11 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <img className="solid-logo"
+        src={LogoS}
+        alt="JavaScript,  Developer"
+      />
+        
       </div>
       <div className='project'>
         <Projects/>

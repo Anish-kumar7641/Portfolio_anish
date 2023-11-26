@@ -25,10 +25,6 @@ const Projects = () => {
 
       </div>
       <div className='project-card2'>
-        {/* <h2>The Google Developer Student Council Club in our institute started this collective effort. After doing this assignment, I received a certification from GDSC.</h2>
-        <h3></h3>
-
-        <p>Data Structures and Algorithms are building blocks of programming. Data structures enable us to organize and store data, whereas algorithms enable us to process that data in a meaningful sense. So opt for the best quality DSA Course completely in Python, to build & enhance your Data Structures and Algorithms skills from basic to advance in Python.</p> */}
          <div className="details">
           <h2>Blog Website Project</h2>
           <ul class="details_ul">

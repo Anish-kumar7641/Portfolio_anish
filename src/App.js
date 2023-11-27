@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Sidebar from './components/Sidebar';
 import Loader from 'react-loaders';
+import Footer from './components/Footer/index'
 import React, { useEffect, useState } from 'react';
 
 function App() {
@@ -36,10 +37,9 @@ function App() {
               <Route exact path="/about" element={<About />} />
               <Route exact path="/contact" element={<Contact />} />
             </Routes>
-
+          <Footer/>
           </div>
         </Router>
-
       )}
     </div>
 

@@ -42,10 +42,27 @@ const Projects = () => {
       </div>
       <div className='project-card'>
         <img src={rentPic} alt="BlogProject" />
-        <p>Data Structures and Algorithms are building blocks of programming. Data structures enable us to organize and store data, whereas algorithms enable us to process that data in a meaningful sense. So opt for the best quality DSA Course completely in Python, to build & enhance your Data Structures and Algorithms skills from basic to advance in Python.</p>
+        <div className="details">
+          <h2>Rental Service Project</h2>
+          <ul class="details_ul">
+            <li>Tools & technologies used : REACT.JS, JAVASCRIPT, NODE.JS, EXPRESS.JS, SQL, GIT, GITHUB.</li>
+            <li>Developed a website for a rental company.</li>
+            <li>Designed user-centric, user-friendly, accessible, and responsive User Interface.</li>
+            <li>Used SQL as our database.</li>
+          </ul>
+        </div>
       </div>
       <div className='project-card2'>
-        <p>Data Structures and Algorithms are building blocks of programming. Data structures enable us to organize and store data, whereas algorithms enable us to process that data in a meaningful sense. So opt for the best quality DSA Course completely in Python, to build & enhance your Data Structures and Algorithms skills from basic to advance in Python.</p>
+      <div className="details">
+          <h2>Portfolio Project</h2>
+          <ul class="details_ul">
+            <li>Tools & technologies used : REACT.JS, JAVASCRIPT, CSS, SASS, GITHUB.</li>
+            <li>Builded my portfolio.</li>
+            <li>Designed user-centric, user-friendly and accessible User Interface.</li>
+            <li>Deployed project on vercel.</li>
+            
+          </ul>
+        </div>
         <img src={pfolioPic} alt="BlogProject" />
 
       </div>

@@ -37,7 +37,7 @@ const Contact = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>      
-      <p>If you have any questions or feedback, feel free to reach out to me!</p>
+      <p>Feel free to reach out to me using the form below:</p>
       
       <form action="https://formspree.io/f/mqkvozok" method="POST">
         <label htmlFor="name">Name:</label>

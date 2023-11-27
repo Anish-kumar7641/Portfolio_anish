@@ -1,0 +1,14 @@
+
+.foot p{
+    font-size: 3rem;
+    color: #b3cce0;
+  } 
+
+  .foot{
+    background-color: #200042;
+    color: #fff;
+    text-align: center;
+    /* padding: 1em 0; */
+    width: 100%;
+    bottom: 0;
+}

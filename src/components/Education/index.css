@@ -22,7 +22,9 @@
     background-color:#181d4b;
     border-radius: 5px;  
 }
-
+.education-card:hover{
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.411);
+  }
 .education-card h3{
     font-size: 2rem;
     color:rgb(232, 233, 233);

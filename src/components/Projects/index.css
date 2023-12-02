@@ -86,6 +86,9 @@
     color:aliceblue;
 
   }
+  .project-card:hover{
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.411);
+  }
   .project-card2 {
     display:flex;
     flex-direction: row;
@@ -101,6 +104,9 @@
     background: rgba(38, 150, 200, 0.04);
   }
   
+  .project-card2:hover{
+    box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.411);
+  }
   .project-card2 img {
     width: 30%;
     height: 100%;
@@ -113,4 +119,20 @@
     font-size: 1.8rem;
     color:aliceblue;
 
+  }
+
+  .git-link{
+    font-size: 2.3rem;
+    text-decoration: none;
+    color:blue;
+    margin-left:2rem;
+  }
+
+  .get-link:hover{
+    cursor:pointer;
+  }
+  .head{
+    display:flex;
+    flex-direction:row;
+    margin-left: 10rem;
   }

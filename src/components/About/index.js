@@ -3,9 +3,9 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import {
-    faAngular,
+    faGithub,
+    faNodeJs,
     faCss3,
-    faGitAlt,
     faHtml5,
     faJsSquare,
     faReact,
@@ -52,7 +52,7 @@ const About = () => {
             <div className="stage-cube-cont">
                 <div className="cubespinner">
                     <div className="face1">
-                        <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                        <FontAwesomeIcon icon={faNodeJs} color="#DD0031" />
                     </div>
                     <div className="face2">
                         <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -67,7 +67,7 @@ const About = () => {
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     </div>
                     <div className="face6">
-                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        <FontAwesomeIcon icon={faGithub} color="#EC4D28" />
                     </div>
                 </div>
             </div>

@@ -10,10 +10,10 @@
     font-family: 'Coolvetica';
     color: #ffd700;
     font-weight: 400;
-    margin-top: 0;
+    margin-top: 5rem;
     position: relative;
     margin-bottom: 40px;
-    left: -10px;
+    margin-left: 18rem;
 
     &:before {
       content: '<h1>';
@@ -21,8 +21,8 @@
       color: #ffd700;
       font-size: 18px;
       position: absolute;
-      margin-top: -10px;
-      left: -10px;
+      margin-top: 0px;
+      left: 0px;
       opacity: 0.6;
       line-height: 18px;
     }

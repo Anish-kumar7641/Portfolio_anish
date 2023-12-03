@@ -3,6 +3,7 @@ import './index.css'
 import BlogPic from '../../assets/images/blog.png'
 import rentPic from '../../assets/images/house-rent2.jpg'
 import roomPic from '../../assets/images/room-book.png'
+import cricPic from '../../assets/images/cricket.jpg'
 import pfolioPic from '../../assets/images/portfolio6.jpeg'
 import{faGithub} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
@@ -25,7 +26,7 @@ const Projects = () => {
             <li>After doing this assignment, I received a certification from GDSC.</li>
             <li>Tools & technologies used : REACT.JS, JAVASCRIPT, NODE.JS, EXPRESS.JS, MONGODB, GIT, GITHUB.</li>
             <li>Developed a platform for users to upload their business and for others to book them with ease.</li>
-            {/* <li>Designed user-friendly, accessible, and responsive User Interface.</li> */}
+            <li>Designed user-friendly, accessible, and responsive User Interface.</li>
             <li>I also gained experience in teamwork, time management, and stress management while working on this project.</li>
           </ul>
         </div>
@@ -51,25 +52,25 @@ const Projects = () => {
         <img src={roomPic} alt="BlogProject" />
 
       </div>
+      
       <div className='project-card'>
-        <img src={rentPic} alt="BlogProject" />
+        <img src={cricPic} alt="BlogProject" />
         <div className="details">
-          {/* <h2>Rental Service Project</h2> */}
           <div className="head">
-          <h2>Rental Service Project </h2> 
-          <a className="git-link" href="https://github.com/Anand930singh/DBMS_rental2"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
+          <h2>Cricket Prediction Project </h2> 
+          <a className="git-link" href="https://github.com/Anish-kumar7641/Cricket-Code-Hack"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
           </div>
           <ul class="details_ul">
-            <li>Tools & technologies used : REACT.JS, JAVASCRIPT, NODE.JS, EXPRESS.JS, SQL, GIT, GITHUB.</li>
-            <li>Developed a website for a rental company.</li>
-            <li>Designed user-centric, user-friendly, accessible, and responsive User Interface.</li>
-            <li>Used SQL as our database.</li>
+            <li>Tools & technologies used : REACT.JS, JAVASCRIPT, EXPRESS.JS, SASS, WEATHER API, BEAUTIFUL SOUP, GIT, GITHUB.</li>
+            <li>This project is designed to predict the performance of batsmen and bowlers in upcoming cricket matches.</li>
+            <li>Python libraries such as Scikit-learn or TensorFlow are used for predictive modeling and analysis of historical cricket data.</li>
+            <li>Possible integration with cricket APIs to fetch real-time match data, player statistics and weather data.</li>
+            <li>Integrated the prediction model with front-end.</li>
           </ul>
         </div>
       </div>
       <div className='project-card2'>
       <div className="details">
-          {/* <h2>Portfolio Project</h2> */}
           <div className="head">
           <h2>Portfolio Project</h2> 
           <a className="git-link" href="https://github.com/Anish-kumar7641/Portfolio_anish"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
@@ -84,6 +85,21 @@ const Projects = () => {
         </div>
         <img src={pfolioPic} alt="BlogProject" />
 
+      </div>
+      <div className='project-card'>
+        <img src={rentPic} alt="BlogProject" />
+        <div className="details">
+          <div className="head">
+          <h2>Rental Service Project </h2> 
+          <a className="git-link" href="https://github.com/Anand930singh/DBMS_rental2"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
+          </div>
+          <ul class="details_ul">
+            <li>Tools & technologies used : REACT.JS, JAVASCRIPT, NODE.JS, EXPRESS.JS, SQL, GIT, GITHUB.</li>
+            <li>Developed a website for a rental company.</li>
+            <li>Designed user-centric, user-friendly, accessible, and responsive User Interface.</li>
+            <li>Used SQL as our database.</li>
+          </ul>
+        </div>
       </div>
     </div>
   )

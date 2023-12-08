@@ -40,8 +40,6 @@ const Projects = () => {
           <a className="git-link" href="https://github.com/Anish-kumar7641/CS-301-Project-1"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
           </div>
           <ul class="details_ul">
-            <li>The Google Developer Student Council Club in our institute started this collective effort.</li>
-            <li>After doing this assignment, I received a certification from GDSC.</li>
             <li>Tools & technologies used : REACT.JS, JAVASCRIPT, NODE.JS, EXPRESS.JS, MONGODB, JWT, GIT, GITHUB.</li>
             <li>Developed a social media platform that allows users to create profiles, create blogs, share posts, connect with friends and more!</li>
             <li>Designed user-centric, user-friendly, accessible, and responsive User Interface.</li>

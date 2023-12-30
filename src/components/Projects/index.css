@@ -4,7 +4,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0px;
     width:100%;
     animation:slideIn 1.5s ease 1; 
 
@@ -60,12 +60,11 @@
     box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.411);
   }
 
-  
-  
   .details{
     display:flex;
     flex-direction:column;
   }
+  
   .details h2{
     margin-top: -10px;
     margin-bottom: 10px;

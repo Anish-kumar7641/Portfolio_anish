@@ -1,16 +1,31 @@
-.home-page {
-  
+
+.home{
+  display: flex;
+  flex-direction: column;
+  padding:0px;
+  margin:0px;
+}
+
+.container{
+  // height: 100dvh;
+  padding:10rem 0rem;
+  display: flex;
+  align-items: center;
+  // display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
   .text-zone {
     width: 40%;
     max-height: 90%;
-    left:15rem;
+    left:20rem;
     position: relative;
   }
 
-  h1 {
+  .text-zone h1 {
     color: #fff;
-    font-size: 56px;
-    line-height: 53px;
+    font-size: 6rem;
+    line-height: 6rem;
     margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
@@ -19,10 +34,10 @@
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
-      font-size: 18px;
+      font-size: 2rem;
       position: absolute;
-      margin-top: -40px;
-      left: -15px;
+      margin-top: -4rem;
+      left: -1rem;
       opacity: 0.6
     }
 
@@ -30,29 +45,29 @@
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
-      font-size: 18px;
+      font-size: 2rem;
       position: absolute;
-      margin-top: 18px;
-      margin-left: 20px;
+      margin-top: 2rem;
+      margin-left: 2rem;
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
 
     img {
-      margin-left: 20px;
+      margin-left: 2rem;
       opacity: 0;
-      width: 60px;
-      height:60px;
+      width: 6rem;
+      height:6rem;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
     }
   }
 
-  h2 {
+  .text-zone h2 {
     color: #dad9d9;
-    margin-top: 20px;
+    margin-top: 0rem;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 3rem;
     font-family: sans-serif;
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
@@ -60,15 +75,15 @@
 
   .flat-button {
     color: #ffd700;
-    font-size: 13px;
+    font-size: 2rem;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 0.5rem;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 1rem 2rem;
     border: 1px solid #ffd700;
-    margin-top: 25px;
-    float: left;
+    margin-top: 0rem;
+    // float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
@@ -77,40 +92,23 @@
       color: #333;
     }
   }
-}
+
 
 .project{
-  margin-top:-3rem;
+  margin-top:1rem;
   position:static;
   background-color:#021d43;
   width:100%;
 }
 
-.home{
-  display: flex;
-  flex-direction: column;
-}
-
-.container{
-  height: 100dvh;
-  padding:1rem 5rem;
-  display: flex;
-  align-items: center;
-  display:flex;
-  flex-direction: row;
-}
-
 .solid-logo {
   position: absolute;
-  top: auto;
-  right:-70rem;
-  bottom: auto;
-  left: 0;
-  margin: auto;
-  width: 650px;
-  height:500px;
- 
-
+  top: 16rem;
+  left: 100rem;
+  height:45rem;
+  width:40rem;
+  display:flex;
+  flex-wrap: wrap;
 }
 
 

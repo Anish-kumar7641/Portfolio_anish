@@ -38,8 +38,8 @@ const Home = () => {
 
   return (
     <div className='home'>
-      <div className="container home-page">
-        
+      <div className="container">
+      
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -68,10 +68,11 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <img className="solid-logo"
-        src={LogoS}
-        alt="JavaScript,  Developer"
-      />
+        <div>
+        <img className="solid-logo" 
+        src={LogoS} 
+        alt="JavaScript,  Developer"/> 
+        </div>
         
       </div>
       <div className='project'>

@@ -2,56 +2,36 @@
 .home{
   display: flex;
   flex-direction: column;
-  padding:0px;
-  margin:0px;
 }
 
 .container{
-  // height: 100dvh;
-  padding:10rem 0rem;
-  display: flex;
+  margin: 0rem auto;
+  display:flex;
   align-items: center;
-  // display:flex;
-  flex-direction: row;
+  justify-content: center;
+}
+
+.text-zone{
+  display:flex;
+  flex-wrap: wrap;
+  width:40%;
+}
+.solid-logo {
+  margin-top: 0rem;
+  margin-left: 0rem;
+  height:40rem;
+  width: 40rem;
+  display:flex;
   flex-wrap: wrap;
 }
-  .text-zone {
-    width: 40%;
-    max-height: 90%;
-    left:20rem;
-    position: relative;
-  }
 
   .text-zone h1 {
     color: #fff;
     font-size: 6rem;
     line-height: 6rem;
-    margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
 
-    &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 2rem;
-      position: absolute;
-      margin-top: -4rem;
-      left: -1rem;
-      opacity: 0.6
-    }
-
-    &:after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
-      font-size: 2rem;
-      position: absolute;
-      margin-top: 2rem;
-      margin-left: 2rem;
-      animation: fadeIn 1s 1.7s backwards;
-      opacity: 0.6;
-    }
 
     img {
       margin-left: 2rem;
@@ -70,7 +50,6 @@
     font-size: 3rem;
     font-family: sans-serif;
     letter-spacing: 3px;
-    animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
@@ -83,7 +62,6 @@
     padding: 1rem 2rem;
     border: 1px solid #ffd700;
     margin-top: 0rem;
-    // float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
@@ -94,65 +72,15 @@
   }
 
 
-.project{
-  margin-top:1rem;
+.projects{
+  margin-top:7rem;
   position:static;
   background-color:#021d43;
   width:100%;
 }
 
-.solid-logo {
-  position: absolute;
-  top: 16rem;
-  left: 100rem;
-  height:45rem;
-  width:40rem;
-  display:flex;
-  flex-wrap: wrap;
-}
 
 
 
 
-// @media screen and (max-width: 1200px) {
-//   .tags,
-//   .home-page h1:before,
-//   .home-page h1:after {
-//     display: none;
-//   }
 
-//   .home-page .text-zone {
-//     position: initial;
-//     width: 100%;
-//     transform: none;
-//     padding: 10px;
-//     box-sizing: border-box;
-//   }
-
-//   .home-page .flat-button {
-//     float: none;
-//     display: block;
-//     margin: 20px auto 0 auto;
-//     width: 124px;
-//   }
-
-//   .logo-container {
-//     position: relative;
-//     width: 100px;
-//     height: auto;
-//     top: 50px;
-//     right: 0;
-//     box-sizing: border-box;
-//     margin: auto;
-//     left: 0;
-//   }
-
-//   .logo-container svg {
-//     position: absolute;
-//     top: auto;
-//     right: auto;
-//     bottom: auto;
-//     left: 0;
-//     margin: auto;
-//   }
-// }

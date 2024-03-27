@@ -20,7 +20,6 @@ const Projects = () => {
           <a className="git-link" href="https://github.com/Anish-kumar7641/hotel-booking-frontend"><FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>GitHub</a>
           </div>
           
-          
           <ul class="details_ul">
             <li>The Google Developer Student Council Club in our institute started this collective effort.</li>
             <li>After doing this assignment, I received a certification from GDSC.</li>

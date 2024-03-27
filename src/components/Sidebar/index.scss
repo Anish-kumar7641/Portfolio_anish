@@ -8,17 +8,18 @@
     position: sticky;
     top: 0;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     z-index: 3;
   
     .logo {
-      display: block;
+      // display: block;
       padding: 20px 0px;
       margin: 0px 40px;
 
   
       img {
-        display: block;
+        // display: block;
         margin: 0px 8px;
         width: 100px;
         height: 60px;
@@ -40,7 +41,7 @@
       a {
         font-size: 40px;
         color: #4d4d4e;
-        display: block;
+        // display: block;
         line-height: 10px;
         height: 10px;
         width:5px;

@@ -68,14 +68,15 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <div>
+        {/* <div>
         <img className="solid-logo" 
-        src={LogoS} 
+        src={[]} 
         alt="JavaScript,  Developer"/> 
-        </div>
+        </div> */}
+        
         
       </div>
-      <div className='project'>
+      <div className='projects'>
         <Projects/>
       </div>
       <div className='Education'>
